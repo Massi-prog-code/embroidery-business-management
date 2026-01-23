@@ -7,4 +7,27 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+        <!-- Payment Status Colors -->
+        <color name="status_unpaid">#F44336</color>
+        <color name="status_pending">#FF9800</color>
+        <color name="status_partially_paid">#2196F3</color>
+        <color name="status_paid">#4CAF50</color>
+
+        <!-- UI Colors -->
+        <color name="background">#F5F5F5</color>
+        <color name="card_background">#FFFFFF</color>
+        <color name="text_primary">#212121</color>
+        <color name="text_secondary">#757575</color>
+        <color name="divider">#BDBDBD</color>
+
+        <!-- Accent Colors -->
+        <color name="accent_blue">#2196F3</color>
+        <color name="accent_green">#4CAF50</color>
+        <color name="accent_red">#F44336</color>
+        <color name="accent_orange">#FF9800</color>
+
+
+
 </resources>

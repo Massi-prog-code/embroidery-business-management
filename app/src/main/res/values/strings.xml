@@ -1,3 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Embroidery Business Management</string>
+    <string name="app_name">Embroidery Manager</string>
+
+    <!-- Main Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_clients">Clients</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Order Status -->
+    <string name="status_pending">Pending</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_cancelled">Cancelled</string>
+
+    <!-- Payment Status -->
+    <string name="payment_unpaid">Unpaid</string>
+    <string name="payment_pending">Pending Payment</string>
+    <string name="payment_partially_paid">Partially Paid</string>
+    <string name="payment_paid">Paid</string>
+
+    <!-- Actions -->
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+
+    <!-- Order -->
+    <string name="new_order">New Order</string>
+    <string name="order_details">Order Details</string>
+    <string name="order_id">Order ID</string>
+    <string name="order_date">Order Date</string>
+    <string name="due_date">Due Date</string>
+    <string name="completion_date">Completion Date</string>
+
+    <!-- Client -->
+    <string name="client_name">Client Name</string>
+    <string name="client_phone">Phone Number</string>
+    <string name="client_address">Address</string>
+    <string name="client_email">Email</string>
+
+    <!-- Design -->
+    <string name="design">Design</string>
+    <string name="stitch_count">Stitch Count</string>
+    <string name="upload_design">Upload Design</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+
+    <!-- Pricing -->
+    <string name="base_price">Base Price</string>
+    <string name="stitch_rate">Price per 1000 stitches</string>
+    <string name="material_cost">Material Cost</string>
+    <string name="additional_cost">Additional Cost</string>
+    <string name="total_price">Total Price</string>
+
+    <!-- Payment -->
+    <string name="add_payment">Add Payment</string>
+    <string name="payment_amount">Amount</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="payment_date">Payment Date</string>
+    <string name="payment_notes">Notes</string>
+    <string name="total_paid">Total Paid</string>
+    <string name="remaining_balance">Remaining Balance</string>
+    <string name="payment_history">Payment History</string>
+
+    <!-- Payment Methods -->
+    <string name="payment_cash">Cash</string>
+    <string name="payment_bank_transfer">Bank Transfer</string>
+    <string name="payment_check">Check</string>
+    <string name="payment_mobile">Mobile Payment</string>
+    <string name="payment_credit_card">Credit Card</string>
+
+    <!-- Currency -->
+    <string name="currency_symbol">DZD</string>
+
+    <!-- Messages -->
+    <string name="order_created">Order created successfully</string>
+    <string name="order_updated">Order updated successfully</string>
+    <string name="order_deleted">Order deleted successfully</string>
+    <string name="payment_added">Payment added successfully</string>
+    <string name="error_occurred">An error occurred</string>
+
+    <!-- Dialogs -->
+    <string name="confirm_delete">Are you sure you want to delete this order?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
+
+    <!-- ========================================== -->
+    <!-- FILE: app/src/main/res/values/colors.xml -->
+    <!-- ========================================== -->
+
+    <?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Primary Colors -->
+<color name="purple_200">#FFBB86FC</color>
+<color name="purple_500">#FF6200EE</color>
+<color name="purple_700">#FF3700B3</color>
+<color name="teal_200">#FF03DAC5</color>
+<color name="teal_700">#FF018786</color>
+
+<!-- Basic Colors -->
+<color name="black">#FF000000</color>
+<color name="white">#FFFFFFFF</color>
+
+<!-- Payment Status Colors -->
+<color name="status_unpaid">#F44336</color>
+<color name="status_pending">#FF9800</color>
+<color name="status_partially_paid">#2196F3</color>
+<color name="status_paid">#4CAF50</color>
+
+<!-- UI Colors -->
+<color name="background">#F5F5F5</color>
+<color name="card_background">#FFFFFF</color>
+<color name="text_primary">#212121</color>
+<color name="text_secondary">#757575</color>
+<color name="divider">#BDBDBD</color>
+
+<!-- Accent Colors -->
+<color name="accent_blue">#2196F3</color>
+<color name="accent_green">#4CAF50</color>
+<color name="accent_red">#F44336</color>
+<color name="accent_orange">#FF9800</color>
 </resources>
