@@ -64,7 +64,7 @@
                         android:layout_height="wrap_content"
                         android:text="Pending"
                         android:textSize="14sp"
-                        android:textColor="@color/text_secondary" />
+                        android:textColor="@color/background" />
 
                     <TextView
                         android:id="@+id/tv_pending_orders_count"

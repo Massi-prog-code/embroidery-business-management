@@ -51,7 +51,7 @@ class DashboardFragment : Fragment() {
         // View all pending orders
         binding.cardPendingOrders.setOnClickListener {
             // Navigate to orders list
-            // findNavController().navigate(R.id.action_dashboard_to_orders)
+          //   findNavController().navigate(R.id.action_dashboard_to_orders)
         }
 
         // View statistics
