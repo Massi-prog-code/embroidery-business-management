@@ -111,6 +111,13 @@ class OrderViewModel(private val repository: OrderRepository) : ViewModel() {
     }
 
     /**
+     * Get total revenue for a date range
+     */
+    fun getTotalRevenue(startDate: Long, endDate: Long): LiveData<Double?> {
+        return repository.getTotalRevenue(startDate, endDate)
+    }
+
+    /**
      * Add payment to order
      */
     fun addPayment(payment: Payment, order: Order) {
